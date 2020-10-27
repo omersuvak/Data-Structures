@@ -1,2 +1,2 @@
-# Veri-Yap-lar-
+# Veri-Yapilari
 Faktöriyel Ödevi
