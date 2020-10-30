@@ -4,7 +4,7 @@ def fact(sayi):
   
   for i in range(sayi):
      deger = deger * (i+1)
- 
-  print("Faktoriyel : ", deger)
+     
+ return deger
 
 fact(#istenen deger)
