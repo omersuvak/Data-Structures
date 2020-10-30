@@ -4,6 +4,8 @@ def fact(sayi):
   
   for i in range(sayi):
      deger = deger * (i+1)
-     return deger
+     
+     
+  return deger
 
 print(fact(#faktöriyel alınacak değer))
