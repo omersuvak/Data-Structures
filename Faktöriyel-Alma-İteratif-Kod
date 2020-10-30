@@ -1,11 +1,18 @@
 def fact(sayi):
+  deger=1
   
-  deger = 1
-  
+  while(sayi<0):
+   sayi=int(input("Lütfen Pozitif Bir Sayı Girin: "))
+   
+   if(sayi < 0):
+    continue
+   
+   
   for i in range(sayi):
-     deger = deger * (i+1)
-     
+   deger = deger * (i+1)
+  
+  
      
   return deger
 
-print(fact(#faktöriyel alınacak değer))
+print("Faktöriyel: ",fact(#faktöriyeli istenen değer))
