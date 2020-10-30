@@ -2,7 +2,7 @@ def fact(sayi):
   deger=1
   
   while(sayi<0):
-   sayi=int(input("Lütfen Pozitif Bir Sayı Girin: "))
+   sayi=input("Lütfen Pozitif Bir Sayı Girin: ")
    
    if(sayi < 0):
     continue
