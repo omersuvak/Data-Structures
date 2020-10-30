@@ -1,9 +1,14 @@
-def fact(n):
+def fact(sayi):
+  while(sayi<0):
+   sayi=int(input("Lütfen Pozitif Bir Sayı Girin: "))
+   
+   if(sayi < 0):
+    continue
+    
+  if sayi == 0:   
+        return 1   
+    
+  else:
+        return sayi * fact(sayi-1)  
 
-    if n == 0:
-        return 1
-
-    else:
-        return n * fact(n-1)
-
-print("Faktoriyel : ",fact(#istenen deger))
+print("Faktöriyel: ",fact(#faktöriyeli istenen değer))
