@@ -1,18 +1,18 @@
 def fact(sayi):
-  deger=1
+  deger=1                                                     #Faktöriyel sonucunu tuttuğumuz değişken.
   
-  while(sayi<0):
+  while(sayi<0):                                              #Faktöriyelini istediğimiz sayının negatif olması sonucu girilen döngü
    sayi=int(input("Lütfen Pozitif Bir Sayı Girin: "))
    
-   if(sayi < 0):
+   if(sayi < 0):                                              #Kullanıcıdan alınan yeni değerin de negatif olması sonucunda while döngüsüne dönen if bloğu.
     continue
    
    
-  for i in range(sayi):
+  for i in range(sayi):                                        #Girilen sayının pozitif olması durumunda faktöriyel alan for bloğu.
    deger = deger * (i+1)
   
   
      
-  return deger
+  return deger                                                 #Faktöriyel sonucu
 
 print("Faktöriyel: ",fact(#faktöriyeli istenen değer))
