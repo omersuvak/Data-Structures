@@ -1,5 +1,4 @@
 # Veri-Yapilari
-FAKTÖRİYEL ÖDEVİ
 
 Grup Üyeleri:
 
