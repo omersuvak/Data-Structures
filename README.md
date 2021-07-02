@@ -1,4 +1,4 @@
-# Veri-Yapilari
+# Data Structures
 
 Grup Üyeleri:
 
